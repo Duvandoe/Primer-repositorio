@@ -1,0 +1,90 @@
+.lovers-quarrel-regular {
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: white;
+}
+
+.rosa {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+  
+.pétalos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    
+}
+  
+.pétalo {
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    background-color: #FF69B4;
+    border-radius: 50px 0 50px 0;
+    animation: mover 3s ease-in-out infinite;
+    filter: drop-shadow(5px 5px 10px #000);
+}
+  
+.Bianka{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, 50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 75px;
+    font-family: "Lovers Quarrel", cursive;
+    color: purple;
+    animation: mover 3s ease-in-out infinite;
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+.pétalo:nth-child(1) {
+    transform: rotate(0deg) translate(80px, -80px);
+}
+  
+.pétalo:nth-child(2) {
+    transform: rotate(45deg) translate(80px, -80px);
+}
+  
+.pétalo:nth-child(3) {
+    transform: rotate(90deg) translate(80px, -80px);
+}
+  
+.pétalo:nth-child(4) {
+    transform: rotate(135deg) translate(80px, -80px);
+}
+  
+.pétalo:nth-child(5) {
+    transform: rotate(180deg) translate(80px, -80px);
+}
+  
+.pétalo:nth-child(6) {
+    transform: rotate(225deg) translate(80px, -80px);
+}
+  
+.pétalo:nth-child(7) {
+    transform: rotate(270deg) translate(80px, -80px);
+}
+  
+.pétalo:nth-child(8) {
+    transform: rotate(315deg) translate(80px, -80px);
+}
+  
+@keyframes mover {
+    50% {
+      transform: rotate(10deg);
+    }
+}
+
+
+    
